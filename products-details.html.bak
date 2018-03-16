@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<style></style>	
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/products-details.css">
+ </head>
+ <body>
+	<div class="main">
+		<!--1.引入头部-->
+		<iframe src="header.html" frameborder="0" id="header"></iframe>
+		<!--详细内容-->
+		<!--3.面包屑导航(路径导航)-->
+		<div id="bread-crumb">
+			<a href="#">首页</a>
+			<span>&gt;</span>
+			<a href="#">学习用品</a>
+			<span>&gt;</span>
+			<a href="#">笔记本电脑</a>
+			<span>&gt;</span>
+			<a href="#">ThinkPad</a>
+		</div>
+		<!--4.详细信息-->
+		<div id="product-details">
+			<!--1.左上:产品预览 460px-->
+			<div id="preview">
+				<!--上:大图-->
+				<p>
+					<img src="img/product/md/5819a10bN2ea5c8e0.jpg" alt="">
+				</p>
+				<!--下:小图-->
+				<ul></ul>
+			</div>
+			<!--2.右上:文字信息 490px-->
+			<div id="show-details"></div>
+		</div>
+		<!--5.商品详情-->
+		<div id="introduce">
+			回家
+		</div>
+		<!--2.引入尾部-->
+		<iframe src="footer.html" frameborder="0" id="footer"></iframe>
+	</div>
+ </body>
+</html>
